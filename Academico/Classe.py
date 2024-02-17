@@ -12,4 +12,8 @@ class Classe:
         self.estudantes = estudantes
 
     def ler_arquivo(self):
-        
+        caminho_arquivo = (r"C:\Users\WIN\PycharmProjects\sistemaAcademico\Academico"
+                           r"\Listadealunos.xlsx")
+        tabela = pd.read_excel(caminho_arquivo)
+        #Desenvolver (classe com estudantes)
+
